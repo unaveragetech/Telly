@@ -31,13 +31,18 @@ Telly Bot is a customizable Telegram bot that can respond to specific messages w
    pip install -r requirements.txt
 Run the Bot
 Run init_env.py to initialize the bot for the first time. This script will create a virtual environment, install dependencies, prompt for environment name, and run the bot.
-
+```
 python init_env.py
+```
 Additional Commands
+```
 Shutdown: Stop the bot if it’s running.
 python init_env.py shutdown
+```
+```
 Uninstall: Completely remove the environment, config, and .env files.
 python init_env.py uninstall
+```
 Bot Usage
 
 Start the bot with /start or /hello.
@@ -45,7 +50,8 @@ Any other messages will be matched against responses.json and replied to with th
 Customization
 
 Modify Responses: Edit responses.json to add or change responses.
-Change Polling Settings: Open bot_config.json and modify "infinity_polling" as needed.
+
+Change Polling Settings(diable bot): Open bot_config.json and modify "infinity_polling" as needed.
 Notes
 
 Ensure .env, bot_config.json, and responses.json are present in the project directory for proper functionality.
