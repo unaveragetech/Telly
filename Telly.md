@@ -37,11 +37,11 @@ python init_env.py
 Additional Commands
 ```
 Shutdown: Stop the bot if it’s running.
-python init_env.py shutdown
+command:python init_env.py shutdown
 ```
 ```
 Uninstall: Completely remove the environment, config, and .env files.
-python init_env.py uninstall
+command:python init_env.py uninstall
 ```
 Bot Usage
 
