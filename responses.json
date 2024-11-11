@@ -1,6 +1,11 @@
 {
-    "hello": "Hello there! How can I assist you?",
-    "how are you": "I'm just a bot, but thanks for asking!",
-    "Whois": "this is a bot used for getheing info about a user",
-    "bye": "Goodbye! Talk to you later!"
+    "hello": "Hello there! How can I assist you today? Can I get your name?",
+    "name": "Nice to meet you, {name}! What can I help you with today?",
+    "age": "How old are you?",
+    "location": "Where are you located?",
+    "interests": "What are some of your hobbies or interests?",
+    "occupation": "What do you do for work or what’s your main focus at the moment?",
+    "how are you": "I'm just a bot, but thanks for asking! How are you doing?",
+    "Whois": "This is a bot used to gather information about you to better assist you in the future.",
+    "bye": "Goodbye! It was nice talking to you. I’ll remember you next time!"
 }
